@@ -120,7 +120,7 @@ h6 {
 .menu-principal ul li a{
 	text-decoration: none;
 	text-transform: uppercase;
-	color: purple;
+	color: #754ba0;
 	margin-right: 20px;
 	borde-color:#ae4bcf;
 	transition:0.5s;
@@ -204,9 +204,10 @@ h6 {
 
 .titulo h1 {
 	font-size: 24px;
-	  background: linear-gradient(to right, purple , #ae4bcf);
+	color: #754ba0
+	  /*background: linear-gradient(to right, #754ba0 , #ae4bcf);
 	  -webkit-background-clip: text;
-	  -webkit-text-fill-color: transparent;
+	  -webkit-text-fill-color: transparent;*/
 }
 
 .titulo h1 span{
@@ -312,7 +313,7 @@ h6 {
 .newsl button{
 	background: #fff;
 	border: 1px solid #fff;
-	color: purple;
+	color: #754ba0;
 	transition:0.8s;
 	width: 100px;
 }
@@ -320,7 +321,7 @@ h6 {
 .newsl button:hover,
 .newsl button:focus {
 	background: #fff;
-	color: purple;
+	color: #754ba0;
 }
 
 .ajude {
@@ -350,7 +351,7 @@ h6 {
 .ajude button:hover,
 .ajude button:focus {
 	background: #fff;
-	color: purple;
+	color: #754ba0;
 }
 
 .tela {
@@ -395,12 +396,15 @@ h6 {
 
 .vermelho {
   background:#FF4E4E!important;
+  transition:0.9s;
 }
 .amarelo {
   background:#FFB92D!important;
+  transition:0.9s;
 }
 .verde {
   background:#00CA3B!important;
+  transition:0.9s;
 }
 
 .area {
@@ -465,9 +469,9 @@ h6 {
 }
 
 .versao button {
-	border: 1px solid purple;
+	border: 1px solid #754ba0;
 	background: #fff;
-	color: purple;
+	color: #754ba0;
 	padding: 2% 10%;
 	transition:0.8s;
 }
@@ -545,22 +549,66 @@ h6 {
 	.relativo {
 		position: relative
 	}
+
+	.responsivo-esp {
+		text-align: center;
+		padding-top: 50px;
+	}
+
+	.responsivo-image {
+		padding-top: 30px;
+	}
 }
 
+.responsivo {
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
 
+.responsivo-quadro {
+	width: 900px;
+	max-width: 100%;
+	display:flex;
+	flex-direction:row!important;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+	padding-top: 20px;
+}
 
+.responsivo-image {
+	flex-grow:1;
+	flex-basis:300px;
+}
 
+.responsivo-texto {
+	flex-grow:10;
+	text-align: left;
+	flex-basis:300px;
+}
 
+.responsivo-esp {
+	width: 90%;
+}
 
+.responsivo-esp p {
+	font-size: 16px;
+	opacity: 0.5
+}
 
+.responsivo-esp button{
+	border:1px solid purple;
+	background: transparent;
+	color: purple;
+	padding: 2% 10%;
+}
 
-
-
-
-
-
-
-
+.responsivesvg {
+	max-width: 100%;
+	width: 300px;
+}
 
 
 
