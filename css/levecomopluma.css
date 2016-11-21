@@ -261,17 +261,24 @@ h6 {
 
 .rodape {
 	width: 100%;
-	height: 500px;
 	background: -webkit-linear-gradient(left, #584b88 , #ae4bcf); 
     background: -o-linear-gradient(right, #584b88, #ae4bcf); 
     background: -moz-linear-gradient(right, #584b88, #ae4bcf); 
     background: linear-gradient(to right, #584b88 , #ae4bcf); 
     display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:flex-start;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .rodape-conteudo {
 	flex-grow:1;
-	border:1px solid black;
+	flex-shrink:2;
+	flex-basis:300px;
+	color: #fff;
+	text-align: center;
 }
 
 .creditos {
@@ -287,18 +294,54 @@ h6 {
     text-align: center;
 }
 
+.redes-sociais {
+	width: 100%;
+}
 
+.redes-sociais ul{
+	list-style-type: none;
+}
 
+.redes-sociais ul li{
+	display: inline-block;
+}
 
+.redes-sociais img{
+	width: 50px;
+}
 
+.menu-principal-rodape ul {
+	margin:0 auto;
+	list-style-type: none;
+	text-decoration: none
+}
 
+.menu-principal-rodape ul li {
+	display: block;
+	margin:0 auto;
+	list-style-type: none;
+	text-decoration: none
+}
 
+.menu-principal-rodape ul li a{
+	color: #fff;
+	list-style-type: none;
+	text-decoration: none
+}
 
+.menu-hamburguer-rodape ul li {
+	display: block;
+	list-style-type: none;
+}
 
+.menu-hamburguer-rodape ul li a{
+	color: #fff;
+	list-style-type: none;
+}
 
-
-
-
+.rodape h3 {
+	font-size: 26px;
+}
 
 
 
