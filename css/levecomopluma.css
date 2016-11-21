@@ -57,7 +57,6 @@ h6 {
 	justify-content:center;
 	align-items:center;
 	align-content:center;
-
 }
 
 .fundo-teste1 {
@@ -66,7 +65,8 @@ h6 {
     background: -moz-linear-gradient(right, #584b88, #ae4bcf); 
     background: linear-gradient(to right, #584b88 , #ae4bcf); 
 	width: 100%;
-	height: 90%;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 .fundo-teste2 {
@@ -84,14 +84,14 @@ h6 {
 }
 
 .logo img {
-	width: 500px;
+	width: 400px;
 	max-width: 90%;
 }
 
 .logo h1{
 	color: #fff;
 	text-align: center;	
-	font-size: 28px;
+	font-size: 22px;
 	font-weight: 0;
 }
 
@@ -136,9 +136,8 @@ h6 {
 
 .botao-menu-atencao {
 	border: 1px solid #4e4646;
-	padding: 5% 20%;
+	padding:1% 5%;
 	color: #4e4646!important;
-	border-radius:5px;
 	transition:0.5s;
 }
 
@@ -219,12 +218,11 @@ h6 {
 
 .flecha {
 	text-align: center;
-	padding-top: 10%;
 }
 
 .flecha-svg {
-   width: 100px;
-   height: 100px;
+   width: 60px;
+   height: 60px;
    position: relative;
    animation-name: flecha;
    animation-duration: 2s;
@@ -254,8 +252,6 @@ h6 {
     flex-wrap:wrap;
     justify-content:space-around;
     align-items:flex-start;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 .rodape-conteudo {
@@ -281,6 +277,8 @@ h6 {
 
 .redes-sociais {
 	width: 100%;
+	padding-bottom: 50px;
+	padding-top:50px;
 }
 
 .redes-sociais ul{
@@ -293,6 +291,11 @@ h6 {
 
 .redes-sociais img{
 	width: 50px;
+}
+
+.menu-principal-rodape {
+	padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .menu-principal-rodape ul {
@@ -317,6 +320,8 @@ h6 {
 .newsletter {
 	width: 100%;
 	text-align: left;
+	padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .newsletter p{
@@ -336,12 +341,51 @@ h6 {
 	width:85%;
 	border-bottom: 1px solid #fff;
 	font-size: 16px;
+	color: #fff!important
 }
 .newsl button{
 	background: transparent;
 	border: 1px solid #fff;
 	color: #fff;
+	transition:0.8s;
 }
+
+.newsl button:hover,
+.newsl button:focus {
+	background: #fff;
+	color: purple;
+}
+
+.ajude {
+	width: 90%;
+	text-align: left;
+	padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ajude p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.ajude h3{
+	font-size: 22px;
+}
+
+.ajude button {
+	border: 1px solid #fff;
+	background: transparent;
+	color: #fff;
+	padding: 2% 10%;
+	transition:0.8s;
+}
+
+.ajude button:hover,
+.ajude button:focus {
+	background: #fff;
+	color: purple;
+}
+
 
 @media only screen and (max-width: 500px) {
     .menu-principal ul {
@@ -363,17 +407,70 @@ h6 {
 		display: none
 	}
 
+	.ajude {
+		text-align: center;
+	}
+
+	.ajude button {
+		width: 100%;
+	}
+
 }
 
 
 
+.tela {
+  background:#fff;
+  width: 500px;
+  max-width: 90%;
+  box-shadow:0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
+.toolbar {
+  width:100%;
+  height:50px;
+  background:#E5E3E5
+}
 
+.tab {
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  float:left;
+  margin-left:10px;
+  text-align:center
+}
 
+.tab ul li{
+  display:inline-block;
+  width:20px;
+  height:20px;
+  background:red;
+  border-radius:50%;
+}
 
+.vermelho {
+  background:#FF4E4E!important;
+}
+.amarelo {
+  background:#FFB92D!important;
+}
+.verde {
+  background:#00CA3B!important;
+}
 
+.area {
+  width:90%;
+  margin-top:0px;
+  height: 400px;
+}
 
-
+.img-grid {
+	padding-top: 20px;
+}
 
 
 
