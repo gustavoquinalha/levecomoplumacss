@@ -195,21 +195,6 @@ h6 {
 	width: 80px;
 	height: 80px;
 	padding-top: 15%;
-}
-
-@media only screen and (max-width: 500px) {
-    .menu-principal ul {
-		display: none;
-	}
-
-	.conteudo {
-		width: 100%;
-	}
-	.novidades-espaco {
-	width: 100%
-	}
-	
-
 }	
 
 .titulo {
@@ -313,7 +298,7 @@ h6 {
 .menu-principal-rodape ul {
 	margin:0 auto;
 	list-style-type: none;
-	text-decoration: none
+	text-decoration: none;
 }
 
 .menu-principal-rodape ul li {
@@ -329,25 +314,56 @@ h6 {
 	text-decoration: none
 }
 
-.menu-hamburguer-rodape ul li {
-	display: block;
-	list-style-type: none;
+.newsletter {
+	width: 100%;
+	text-align: left;
 }
 
-.menu-hamburguer-rodape ul li a{
+.newsletter p{
+	font-size: 22px;
+	width: 90%;
+}
+
+.newsl {
+	width: 90%;
+	background: transparent;
+	padding-top: 20px;	
+}
+
+.newsl input{
+	background: transparent;
+	border: none;
+	width:85%;
+	border-bottom: 1px solid #fff;
+	font-size: 16px;
+}
+.newsl button{
+	background: transparent;
+	border: 1px solid #fff;
 	color: #fff;
-	list-style-type: none;
 }
 
-.rodape h3 {
-	font-size: 26px;
+@media only screen and (max-width: 500px) {
+    .menu-principal ul {
+		display: none;
+	}
+
+	.conteudo {
+		width: 100%;
+	}
+	.novidades-espaco {
+	width: 100%
+	}
+	
+	.newsletter {
+	text-align: center
+	}
+
+	.menu-principal-rodape {
+		display: none
+	}
+
 }
-
-
-
-
-
-
 
 
 
