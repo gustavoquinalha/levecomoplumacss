@@ -1,5 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+@font-face {
+    font-family: "lovesvg";
+    src: url("..img/love.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {
 	margin: 0 auto;
@@ -45,6 +52,7 @@ h6 {
 
 .fundo {
 	display: flex;
+	flex-direction:column;
 	flex-wrap:wrap;
 	justify-content:center;
 	align-items:center;
@@ -64,12 +72,15 @@ h6 {
 .fundo-teste2 {
 	background: #fff;
 	width: 100%;
-	height: 100%;
+	padding-top: 100px;
+	padding-bottom: 200px;
 }
 
 .logo {
 	margin:0 auto;
 	text-align: center
+	flex-grow:1;
+	text-align: center;
 }
 
 .logo img {
@@ -80,9 +91,14 @@ h6 {
 .logo h1{
 	color: #fff;
 	text-align: center;	
-	font-size: 26px;
-	font-weight: 0
+	font-size: 28px;
+	font-weight: 0;
 }
+
+.imagem-responsiva {
+	max-width: 100%;
+}
+
 .menu-opcoes {
 	flex-grow:1;
 }
@@ -106,48 +122,170 @@ h6 {
 	text-transform: uppercase;
 	color: #4e4646;
 	margin-right: 20px;
-	transition:0.5s;
 	borde-color:#ae4bcf;
+	transition:0.5s;
+	cursor: pointer;
 }
 
 .menu-principal ul li a:hover{ 
     color:#584b88;
-    font-weight: 900
+    border-bottom:1px solid #000;
+    cursor: pointer;
+}
+
+
+.botao-menu-atencao {
+	border: 1px solid #4e4646;
+	padding: 5% 20%;
+	color: #4e4646!important;
+	border-radius:5px;
+	transition:0.5s;
+}
+
+.botao-menu-atencao:hover {
+	background:linear-gradient(to right, #584b88 , #ae4bcf); ;
+	padding: 5% 20%;
+	color: #fff!important
+}
+
+
+.conteudo {
+	width: 90%;
+	background: #fff;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+	overflow: hidden;
+}
+
+.novidades {
+	flex-grow:1;
+	align-self:center;
+	margin:0 auto;
+	text-align: center;	
+}
+
+.novidades-texto h2{
+	font-size: 26px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	opacity: 0.5
+}
+
+.novidades-texto p{
+	opacity: 0.5
+}
+
+.novidades-espaco {
+	width: 300px;
+	max-width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.novidades-img {
+	width: 120px;
+	height: 120px;
+
+}
+
+.novidades-img img{
+	width: 80px;
+	height: 80px;
+	padding-top: 15%;
 }
 
 @media only screen and (max-width: 500px) {
     .menu-principal ul {
 		display: none;
 	}
+
+	.conteudo {
+		width: 100%;
+	}
+	.novidades-espaco {
+	width: 100%
+	}
+	
+
+}	
+
+.titulo {
+	width: 100%;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
+.titulo h1 {
+	font-size: 24px;
+	  background: linear-gradient(to right, purple , #ae4bcf);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+}
 
+.titulo h1 span{
+	font-family: 'Bree Serif', serif;
+	font-size: 38px;
+	line-height: 20px;
+}
 
+.flecha {
+	text-align: center;
+	padding-top: 10%;
+}
 
+.flecha-svg {
+   width: 100px;
+   height: 100px;
+   position: relative;
+   animation-name: flecha;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   text-align:center;
+}
 
+@keyframes flecha {
+    0%  {
+      top:0px;
+    }
+    50% {
+      top:20px;
+    }
+    100%   {
+      top:0px;
+    }
+}
 
+.rodape {
+	width: 100%;
+	height: 500px;
+	background: -webkit-linear-gradient(left, #584b88 , #ae4bcf); 
+    background: -o-linear-gradient(right, #584b88, #ae4bcf); 
+    background: -moz-linear-gradient(right, #584b88, #ae4bcf); 
+    background: linear-gradient(to right, #584b88 , #ae4bcf); 
+    display: flex;
+}
 
+.rodape-conteudo {
+	flex-grow:1;
+	border:1px solid black;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.creditos {
+	width: 100%;
+	background: -webkit-linear-gradient(left, #584b88 , #ae4bcf); 
+    background: -o-linear-gradient(right, #584b88, #ae4bcf); 
+    background: -moz-linear-gradient(right, #584b88, #ae4bcf); 
+    background: linear-gradient(to right, #584b88 , #ae4bcf); 
+    filter:brightness(70%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
 
 
 
