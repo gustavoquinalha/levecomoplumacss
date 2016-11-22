@@ -36,6 +36,7 @@ h6 {
     align-items: center;
     align-content: center;
 }
+
 .menu-hamburguer {
     max-height: 100%;
     width: 100%;
@@ -52,13 +53,13 @@ h6 {
 }
 .anima-menu{
 	width: 70px!important;
-	height: 50px!important;
+	height: 30px!important;
 	transition:0.6s;
 	cursor: pointer;
 }
 .anima-menu:hover,
 .anima-menu:focus {
-	height: 70px!important;
+	height: 40px!important;
 }
 .fundo {
     display: flex;
@@ -109,15 +110,21 @@ h6 {
 .imagem-responsiva {
     max-width: 100%;
 }
+.logo-topo{
+	display: none;
+	flex-grow:1;
+	text-align: right;
+	margin-right: 50px;
+	transition:0.5s;
+}
 .menu-opcoes {
     flex-grow: 1;
 }
 .menu-principal {
-    flex-grow: 100;
+    flex-grow: 1;
     transition:0.5s;
 }
 .menu-principal ul {
-    width: 90%;
     text-align: right;
     justify-content: flex-end;
 }
@@ -297,6 +304,8 @@ h6 {
     font-size: 16px;
     color: #fff!important;
     padding: 2% 2%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 .newsl button {
     background: #fff;
@@ -304,6 +313,8 @@ h6 {
     color: #754ba0;
     transition: 0.8s;
     width: 100px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .newsl button:hover,
 .newsl button:focus {
@@ -329,6 +340,7 @@ h6 {
     color: #fff;
     padding: 2% 10%;
     transition: 0.8s;
+    border-radius: 10px;
 }
 .ajude button:hover,
 .ajude button:focus {
@@ -440,6 +452,7 @@ h6 {
     color: #754ba0;
     padding: 2% 10%;
     transition: 0.8s;
+    border-radius: 10px;
 }
 .versao button:hover,
 .versao button:focus {
@@ -463,6 +476,7 @@ h6 {
     }
     .ajude button {
         width: 100%;
+        border-radius: 20px;
     }
     .tamanho-rodape {
         width: 100%;
@@ -564,7 +578,19 @@ h6 {
     background: transparent;
     color: purple;
     padding: 2% 10%;
+    border-radius: 10px;
+    transition:0.6s linear;
+    width: 100%;
 }
+.responsivo-esp button:hover,
+.responsivo-esp button:focus {
+    background: -webkit-linear-gradient(left, #584b88, #ae4bcf)!important;
+    background: -o-linear-gradient(right, #584b88, #ae4bcf)!important;
+    background: -moz-linear-gradient(right, #584b88, #ae4bcf)!important;
+    background: linear-gradient(to right, #584b88, #ae4bcf)!important;
+    color: #fff;
+}
+
 .responsivesvg {
     max-width: 100%;
     width: 200px;
