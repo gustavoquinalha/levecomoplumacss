@@ -5,24 +5,41 @@
     <link rel="stylesheet" type="text/css" href="css/levecomopluma.css">
   </head>
   <body>
-    <div class="menu-rel">
-      <div class="menu">
-        <div class="menu-opcoes">
-          <div class="menu-hamburguer">
-            <img src="img/menu.svg">
+    <form>
+  <div class="menu-rel">
+    <div class="menu">
+      <div class="menu-opcoes">
+        <div class="menu-hamburguer">
+          <input type="checkbox" value="selected" id="menu-hamburguer" class="menu-input">
+          <label for="menu-hamburguer" class="menu-label">
+          <img src="http://gustavoquinalha.com/codepen/img/menu.svg">
+          </label>
+          <div role="menu" id="menuid" class="menu-content">
+            <div class="menu-list">	
+              <div class="menu-list-item">
+              	<button class="fechar" type="reset"><img src="img/cancel.svg" class="imagem-responsiva responsivesvg"></button>
+              </div>
+              <div class="menu-list-item"><a href="#">Home</a></div>
+              <div class="menu-list-item"><a href="#">Usage</a></div>
+              <div class="menu-list-item"><a href="#">Getting Started</a></div>
+              <div class="menu-list-item"><a href="#">Templates</a></div>
+              <div class="menu-list-item"><a href="#">Download</a></div>
+            </div>
           </div>
         </div>
-        <div class="menu-principal">
-          <ul>
-            <li><a href="javascript:void(0);">Home</a></li>
-            <li><a href="javascript:void(0);">Usage</a></li>
-            <li><a href="javascript:void(0);">Getting Started</a></li>
-            <li><a href="javascript:void(0);">Templates</a></li>
-            <li><a class="botao-menu-atencao" href="javascript:void(0);">Download</a></li>
-          </ul>
-        </div>
+      </div>
+      <div class="menu-principal">
+        <ul>
+          <li><a href="javascript:void(0);">Home</a></li>
+          <li><a href="javascript:void(0);">Usage</a></li>
+          <li><a href="javascript:void(0);">Getting Started</a></li>
+          <li><a href="javascript:void(0);">Templates</a></li>
+          <li><a class="botao-menu-atencao" href="javascript:void(0);">Download</a></li>
+        </ul>
       </div>
     </div>
+  </div>
+</form>
     <div class="fundo fundo-cor-degrade-roxo">
       <div class="logo">
         <img src="img/logo.svg">
@@ -48,11 +65,11 @@
       </div>
       <div class="flecha">
         <div class="flecha-svg">
-          <img src="img/flecha.svg" class="imagem-responsiva">
+          <a href="#awesome"><img src="https://gustavoquinalha.github.io/levecomoplumacss/img/flecha.svg" class="imagem-responsiva"></a>
         </div>
       </div>
     </div>
-    <div class="responsivo">
+    <div class="responsivo" id="awesome">
       <div class="titulo">
         <h1>Awesome<br><span>Reponsive</span></h1>
         <div class="responsivo-quadro">
@@ -75,7 +92,7 @@
         </div>
       </div>
     </div>
-    <div class="fundo fundo-cor-degrade-roxo">
+    <div class="fundo-possible">
       <p class="withcss">"With CSS everything is possible."</p>
     </div>
     <div class="fundo-teste2">
