@@ -477,8 +477,8 @@ h6 {
 }
 .responsivo {
     width: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .responsivo-quadro {
     width: 900px;
