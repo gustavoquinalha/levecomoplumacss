@@ -47,7 +47,7 @@ h6 {
 
 .menu-rel {
 	position: relative;
-	background: red;
+	background: purple;
 	height: 80px;
 }
 .fundo {
@@ -488,23 +488,29 @@ h6 {
     .responsivo-esp {
         text-align: center;
         padding-top: 50px;
+
     }
     .responsivo-image {
         padding-top: 30px;
+        
     }
     .responsivesvg {
         width: 12 0px!important;
     }
     .menu-list {
-        background: rgba(0, 0, 0, 0.86);
+        background: rgba(0, 0, 0, 0.95)!important;
     }
     .menu-list-item a {
-        font-size: 20px;
+        font-size: 16px!important;
     }
     .menu-list-item a:hover,
     .menu-list-item a:focus {
-        font-size: 22px;
+        font-size: 20px!important;
     }
+}
+
+.fechar-lado{
+	text-align: right;
 }
 .responsivo {
     width: 100%;
@@ -638,7 +644,7 @@ h6 {
     border: none;
     background: transparent;
     font-size: 22px;
-    padding: 1% 3%;
+    padding-top: 10px;
     border-radius: 10px;
     -webkit-animation: example 5s infinite;
     animation: example 5s infinite;
@@ -658,9 +664,4 @@ h6 {
     }
     100% {
         color: #584b88;
-    }
-
-    .espaco {
-    	padding-top: 5000px;
-    	background: red!important
     }
