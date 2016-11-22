@@ -558,6 +558,10 @@ h6 {
 	.responsivo-image {
 		padding-top: 30px;
 	}
+
+	.responsivesvg {
+		width: 12	0px!important;
+	}
 }
 
 .responsivo {
@@ -607,7 +611,7 @@ h6 {
 
 .responsivesvg {
 	max-width: 100%;
-	width: 300px;
+	width: 200px;
 }
 
 .fundo-tes {
