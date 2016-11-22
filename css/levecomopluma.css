@@ -47,8 +47,18 @@ h6 {
 
 .menu-rel {
 	position: relative;
-	background: purple;
+	background: #fff;
 	height: 80px;
+}
+.anima-menu{
+	width: 70px!important;
+	height: 50px!important;
+	transition:0.6s;
+	cursor: pointer;
+}
+.anima-menu:hover,
+.anima-menu:focus {
+	height: 70px!important;
 }
 .fundo {
     display: flex;
@@ -104,6 +114,7 @@ h6 {
 }
 .menu-principal {
     flex-grow: 100;
+    transition:0.5s;
 }
 .menu-principal ul {
     width: 90%;
@@ -119,24 +130,32 @@ h6 {
     color: #754ba0;
     margin-right: 20px;
     borde-color: #ae4bcf;
-    transition: 0.5s;
+    transition: 1s;
     cursor: pointer;
 }
-.menu-principal ul li a:hover {
+.menu-principal ul li a:hover,
+.menu-principal ul li a:focus {
     color: #584b88;
     border-bottom: 1px solid #000;
     cursor: pointer;
 }
 .botao-menu-atencao {
-    border: 1px solid #4e4646;
-    padding: 3% 10%;
-    color: #4e4646!important;
-    transition: 0.5s;
-}
-.botao-menu-atencao:hover {
+    border: 1px solid #754ba0;
+    width: 120px!important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    color: #fff!important;
+    transition: 1s;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #754BA0;
     background: linear-gradient(to right, #584b88, #ae4bcf);
-    ;
-    color: #fff!important
+    cursor: pointer;
+}
+.botao-menu-atencao:hover,
+.botao-menu-atencao:focus	 {
+	background: #584b88!important
 }
 .conteudo {
     width: 90%;
@@ -508,10 +527,6 @@ h6 {
         font-size: 20px!important;
     }
 }
-
-.fechar-lado{
-	text-align: right;
-}
 .responsivo {
     width: 100%;
     padding-top: 20px;
@@ -618,36 +633,29 @@ h6 {
     padding: 0;
     width: 100%;
 }
-.menu-list-item {
-    flex-grow: 1;
-    margin: 0;
-    padding: 0;
+.fechar-lado{
+	text-align: right;
+	width: 100%!important;
 }
-.menu-list-item a {
-    font-family: 'Bree Serif', serif;
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    font-size: 40px;
-    text-decoration: none;
-    transition: 0.6s;
-    text-transform: uppercase;
+.fechar-sobra {
+	width: 50px;
+	float: right;
+	height: 50px;
 }
-.menu-list-item a:hover,
-.menu-list-item a:focus {
-    font-size: 44px;
-    -webkit-animation: example 2s infinite;
-    animation: example 2s infinite;
+.item-home{
+	padding-top: 50px!important;
 }
 .fechar {
     color: #ae4bcf;
     border: none;
     background: transparent;
     font-size: 22px;
+    margin: 0;
+    padding:0;
     padding-top: 10px;
-    border-radius: 10px;
     -webkit-animation: example 5s infinite;
     animation: example 5s infinite;
+    width: 50px;
 }
 @keyframes example {
     0% {
@@ -665,3 +673,27 @@ h6 {
     100% {
         color: #584b88;
     }
+}
+.menu-list-item {
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.menu-list-item a {
+    font-family: 'Bree Serif', serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    transition: 0.6s;
+    text-transform: uppercase;
+}
+.menu-list-item a:hover,
+.menu-list-item a:focus {
+    font-size: 44px;
+    -webkit-animation: example 2s infinite;
+    animation: example 2s infinite;
+}
+
