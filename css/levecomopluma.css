@@ -44,6 +44,12 @@ h6 {
     width: 100%;
     height: 30px;
 }
+
+.menu-rel {
+	position: relative;
+	background: red;
+	height: 80px;
+}
 .fundo {
     display: flex;
     flex-direction: column;
@@ -79,7 +85,6 @@ h6 {
     margin: 0 auto;
     text-align: center;
     text-align: center;
-    padding-top: 150px;
 }
 .logo img {
     width: 400px;
@@ -653,4 +658,9 @@ h6 {
     }
     100% {
         color: #584b88;
+    }
+
+    .espaco {
+    	padding-top: 5000px;
+    	background: red!important
     }
