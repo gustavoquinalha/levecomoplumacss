@@ -130,7 +130,7 @@ h6 {
     color: #754ba0;
     margin-right: 20px;
     borde-color: #ae4bcf;
-    transition: 1s;
+    transition: 1s linear;
     cursor: pointer;
 }
 .menu-principal ul li a:hover,
