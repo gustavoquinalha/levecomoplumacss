@@ -30,18 +30,17 @@ h6 {
     width: 100%;
     height: 80px;
     background: #fff;
-      display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     flex-wrap: no-wrap;
-    -webkit-flex-wrap:no-wrap;
+    -webkit-flex-wrap: no-wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
 }
-
 .menu-hamburguer {
     max-height: 100%;
     width: 100%;
@@ -50,32 +49,31 @@ h6 {
     width: 100%;
     height: 30px;
 }
-
 .menu-rel {
-	position: relative;
-	background: #fff;
-	height: 80px;
+    position: relative;
+    background: #fff;
+    height: 80px;
 }
-.anima-menu{
-	width: 70px!important;
-	height: 30px!important;
-	transition:0.6s;
-	cursor: pointer;
+.anima-menu {
+    width: 70px!important;
+    height: 30px!important;
+    transition: 0.6s;
+    cursor: pointer;
 }
 .anima-menu:hover,
 .anima-menu:focus {
-	height: 40px!important;
+    height: 40px!important;
 }
 .fundo {
-      display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     flex-direction: column;
-    -webkit-flex-direction:column;
+    -webkit-flex-direction: column;
     flex-wrap: wrap;
-    -webkit-flex-wrap:wrap;
+    -webkit-flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -121,22 +119,22 @@ h6 {
 .imagem-responsiva {
     max-width: 100%;
 }
-.logo-topo{
-	display: none;
-	flex-grow:1;
-	-webkit-flex-grow:1;
-	text-align: right;
-	margin-right: 50px;
-	transition:0.5s;
+.logo-topo {
+    display: none;
+    flex-grow: 1;
+    -webkit-flex-grow: 1;
+    text-align: right;
+    margin-right: 50px;
+    transition: 0.5s;
 }
 .menu-opcoes {
     flex-grow: 1;
-    -webkit-flex-grow:1;
+    -webkit-flex-grow: 1;
 }
 .menu-principal {
     flex-grow: 1;
-    -webkit-flex-grow:1;
-    transition:0.5s;
+    -webkit-flex-grow: 1;
+    transition: 0.5s;
 }
 .menu-principal ul {
     text-align: right;
@@ -175,19 +173,19 @@ h6 {
     cursor: pointer;
 }
 .botao-menu-atencao:hover,
-.botao-menu-atencao:focus	 {
-	background: #584b88!important
+.botao-menu-atencao:focus {
+    background: #584b88!important
 }
 .conteudo {
     width: 90%;
     background: #fff;
-      display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     flex-wrap: wrap;
-    -webkit-flex-wrap:wrap;
+    -webkit-flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -195,7 +193,7 @@ h6 {
 }
 .novidades {
     flex-grow: 1;
-    -webkit-flex-grow:1;
+    -webkit-flex-grow: 1;
     align-self: center;
     margin: 0 auto;
     text-align: center;
@@ -285,22 +283,22 @@ h6 {
 }
 .tamanho-rodape {
     width: 90%;
-      display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     flex-wrap: wrap;
-    -webkit-flex-wrap:wrap;
+    -webkit-flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-end;
 }
 .rodape-conteudo {
     flex-grow: 1;
-    -webkit-flex-grow:1;
+    -webkit-flex-grow: 1;
     flex-shrink: 2;
     flex-basis: 300px;
-    -webkit-flex-basis:300px;
+    -webkit-flex-basis: 300px;
     color: #fff;
     text-align: center;
 }
@@ -330,11 +328,11 @@ h6 {
     width: 90%;
     background: transparent;
     padding-top: 20px;
-      display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
 }
 .newsl input {
     background: transparent;
@@ -409,11 +407,11 @@ h6 {
 .tab {
     height: 100%;
     width: 100%;
-      display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     align-items: center;
     justify-content: flex-start;
     float: left;
@@ -555,13 +553,13 @@ h6 {
         width: 100%;
         height: 80px;
         background: #fff;
-          display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+        display: flex;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
         flex-wrap: no-wrap;
-        -webkit-flex-wrap:no-wrap;
+        -webkit-flex-wrap: no-wrap;
         justify-content: center;
         align-items: center;
         align-content: center;
@@ -572,11 +570,9 @@ h6 {
     .responsivo-esp {
         text-align: center;
         padding-top: 50px;
-
     }
     .responsivo-image {
         padding-top: 30px;
-        
     }
     .responsivesvg {
         width: 12 0px!important;
@@ -600,15 +596,15 @@ h6 {
 .responsivo-quadro {
     width: 900px;
     max-width: 100%;
-      display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     flex-direction: row!important;
-    -webkit-flex-direction:row!important;
+    -webkit-flex-direction: row!important;
     flex-wrap: wrap;
-    -webkit-flex-wrap:wrap;
+    -webkit-flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -616,15 +612,15 @@ h6 {
 }
 .responsivo-image {
     flex-grow: 1;
-    -webkit-flex-grow:1;
+    -webkit-flex-grow: 1;
     flex-basis: 300px;
-    -webkit-flex-basis:300px;
+    -webkit-flex-basis: 300px;
 }
 .responsivo-texto {
     flex-grow: 10;
     text-align: left;
     flex-basis: 300px;
-    -webkit-flex-basis:300px;
+    -webkit-flex-basis: 300px;
 }
 .responsivo-esp {
     width: 90%;
@@ -639,7 +635,7 @@ h6 {
     color: purple;
     padding: 2% 10%;
     border-radius: 10px;
-    transition:0.6s linear;
+    transition: 0.6s linear;
     width: 100%;
 }
 .responsivo-esp button:hover,
@@ -650,7 +646,6 @@ h6 {
     background: linear-gradient(to right, #584b88, #ae4bcf)!important;
     color: #fff;
 }
-
 .responsivesvg {
     max-width: 100%;
     width: 200px;
@@ -702,13 +697,13 @@ h6 {
     width: 100%;
     height: 90%;
     position: absolute;
-      display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     flex-direction: column;
-    -webkit-flex-direction:column;
+    -webkit-flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -726,24 +721,24 @@ h6 {
 .menu-list {
     text-align: center;
     flex-grow: 1;
-    -webkit-flex-grow:1;
+    -webkit-flex-grow: 1;
     background: rgba(0, 0, 0, 0.95);
     height: 100vh;
     margin: 0;
     padding: 0;
     width: 100%;
 }
-.fechar-lado{
-	text-align: right;
-	width: 100%!important;
+.fechar-lado {
+    text-align: right;
+    width: 100%!important;
 }
 .fechar-sobra {
-	width: 50px;
-	float: right;
-	height: 50px;
+    width: 50px;
+    float: right;
+    height: 50px;
 }
-.item-home{
-	padding-top: 50px!important;
+.item-home {
+    padding-top: 50px!important;
 }
 .fechar {
     color: #ae4bcf;
@@ -751,7 +746,7 @@ h6 {
     background: transparent;
     font-size: 22px;
     margin: 0;
-    padding:0;
+    padding: 0;
     padding-top: 10px;
     -webkit-animation: example 5s infinite;
     animation: example 5s infinite;
@@ -793,7 +788,7 @@ h6 {
 }
 .menu-list-item {
     flex-grow: 1;
-    -webkit-flex-grow:1;
+    -webkit-flex-grow: 1;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -814,4 +809,3 @@ h6 {
     -webkit-animation: example 2s infinite;
     animation: example 2s infinite;
 }
-
